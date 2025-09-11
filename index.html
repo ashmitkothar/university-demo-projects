@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="navlinks" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+<div class="textbox">
+    <h1>World's Biggest University</h1>
+    <p>making website is now easist thing in the world. you just need to learn HTML, CSS,<br> java script and you are good to go.</p>
+    <a href"" class="herobtn">Visit us to know more</a>
+</div>
+
+</section>
+    
+<div class="COURSE">
+    <h1>Courses We Offer</h1>
+<p>We offer a wide range of courses to help students at every stage of their academic journey.</p>
+
+<div class="row">
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Our intermediate courses are designed for students who want to strengthen their basics 
+           and prepare for higher studies with strong foundational knowledge.</p>
+    </div>
+
+    <div class="course-col">
+        <h3>Degree</h3>
+        <p>We provide degree-level courses with in-depth knowledge and practical exposure 
+           to build strong academic and professional skills.</p>
+    </div>
+
+    <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>Our postgraduate programs focus on advanced learning, research opportunities, 
+           and professional development to help students excel in their careers.</p>
+    </div>
+    </div>
+
+<!-----campus------>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>A vibrant community of learners from every corner of the globe.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="eduford_img/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="eduford_img/newyork.png">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="eduford_img/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+         </div>
+
+     </section>
+
+<!-------facalities------>
+
+<section class="facilities">
+    <h1>our facilities</h1>
+    <p>“The university offers modern classrooms, labs, sports facilities, and digital resources for overall student growth.”
+</p>
+<div class="row">
+    <div class="facilities-col">
+        <img src="eduford_img/library.png">
+        <h3>World class Library</h3>
+        <p>Our library opens doors to new worlds of knowledge and ideas. It is a perfect hub for learning, research, and discovery.
+</p>
+    </div>
+    <div class="facilities-col">
+        <img src="eduford_img/basketball.png">
+        <h3>largest play ground</h3>
+        <p>Our university offers the largest playground where students can enjoy every sport, stay fit, and create unforgettable memories with friends."
+</p>
+    </div>
+    <div class="facilities-col">
+        <img src="eduford_img/cafeteria.png">
+        <h3>Tasty & healthy food</h3>
+        <p>We believe good health begins with good food. That’s why we provide hygienic, delicious, and balanced meals that keep students active, focused, and energized."
+</p>
+    </div>
+</div>
+</section>
+
+<section class="testimonials">
+    <h1> what our student says</h1>
+    <p>Our students share their real experiences and success stories with us</p>
+    <div class="row">
+        <div class="testimonials-col">
+          <img src="eduford_img/user1.jpg">
+          <div><p>My experience at this university has been amazing.
+The facilities and support here truly help students grow.
+I feel proud to be a part of this campus."</p>
+            <h3>cristien berkley</h3>
+        </div>  
+        </div>
+        <div class="testimonials-col">
+          <img src="eduford_img/user2.jpg">
+          <div><p>Great environment with excellent facilities.
+Teachers are supportive and always guide us.
+This university feels like a second home."</p>
+            <h3>david brey</h3>
+        </div>  
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="cta">
+    <h1>Enroll For Our Various Courses <br> Anywhere From The World</h1>
+    <a href="" class="herobtn">CONTACT US</a>
+</section>
+
+
+
+<section class footer>
+    <h4>About us</h4>
+    <p>We are committed to providing quality education with modern facilities and a supportive environment. <br> Our focus is on academic excellence, skill development, and overall growth of students to prepare them for a successful future </p>
+    <p>made with by Ash tech</p>
+</section>
+
+
+
+
+
+
+<!------javascript for toggle menu------>   
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+
+</body>
+</html>
